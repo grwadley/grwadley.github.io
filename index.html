@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme The Band</title>
+  <title>Reese Wadley Music</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -105,11 +104,14 @@
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
-      background-color: #2d2d30;
+      background-color: #2C3462;
       border: 0;
       font-size: 11px !important;
       letter-spacing: 4px;
       opacity: 0.9;
+  }
+  .music-links{
+  	font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand { 
       color: #d5d5d5 !important;
@@ -119,7 +121,7 @@
   }
   .navbar-nav li.active a {
       color: #fff !important;
-      background-color: #29292c !important;
+      background-color: #2C3462 !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -168,24 +170,24 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#album">HOME</a></li>
         <li><a href="#live">LIVE</a></li>
         <li><a href="#band">BIO</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div id="band" class="container text-center">
-  <h3>BONSAI</h3>
+<div id="album" class="container text-center">
   <img src="Bonsai.jpg" alt="Bonsai" class="img-responsive" >
-  <h1>Listen On:</h1>
-  <a href="https://open.spotify.com/album/4ElBHpLSQkQwNQfIZtHhxe"><i class="fa fa-spotify" aria-hidden="true">Spotify</i></a>
-  <a href="https://itunes.apple.com/us/album/bonsai/1333215315"><i class="fa fa-apple" aria-hidden="true">Apple Music</i></a>
-  <a href="https://www.amazon.com/Bonsai-Reese-Wadley/dp/B078WCTQ8M"><i class="fa fa-amazon" aria-hidden="true">Amazon</i></a>
-  <a href="https://www.youtube.com/playlist?list=PLn6lIWB6w155jE3QbLBDMpzkja7Pw6YkG"><i class="fa fa-youtube-play" aria-hidden="true">Youtube</i></a>
+  <h1>
+  <ul class="list-inline">
+  	<li><i class="fa fa-spotify" aria-hidden="true"></i><a class="music-links" href="https://open.spotify.com/album/4ElBHpLSQkQwNQfIZtHhxe"> Spotify</a> | </li>
+  	<li><i class="fa fa-apple" aria-hidden="true"></i><a class="music-links" href="https://itunes.apple.com/us/album/bonsai/1333215315"> Apple Music</a> | </li>
+  	<li><i class="fa fa-amazon" aria-hidden="true"></i><a class="music-links" href="https://www.amazon.com/Bonsai-Reese-Wadley/dp/B078WCTQ8M"> Amazon</a> | </li>
+  	<li><i class="fa fa-youtube-play" aria-hidden="true"></i><a class="music-links" href="https://www.youtube.com/playlist?list=PLn6lIWB6w155jE3QbLBDMpzkja7Pw6YkG"> Youtube</a></li>
+  </ul>
+</h1>
   <br>
 </div>
 
@@ -193,9 +195,9 @@
 <div id="live" class="bg-1">
   <div class="container">
     <h3 class="text-center">Live Shows</h3>
-    <p class="text-center">Find out where I'm playing next<br> Stop by and say hi</p>
+    <p class="text-center">Find out where I'm playing next<br> Stop by and say hi :)</p>
     <ul class="list-group">
-      <li class="list-group-item">9/13 - Road House Bar (Open Mic) <span class="label">Done</span></li>
+      <li class="list-group-item">9/20 - Road House Bar (Open Mic) <span class="label">Done</span></li>
     </ul>
   </div>
 </div>
@@ -205,21 +207,15 @@
   <h3>BIO</h3>
   <p><em>Reese Wadley</em></p>
   <p>I'm a solo musician working out of my bedroom in Austin TX. Bonsai is my latest work and my first full length album.</p>
-</div>
-
-<!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center">Contact</h3>
-
-  <div class="row">
-    <div class="col-lg-12">
-   		<a href="https://www.instagram.com/grwadley/"><i class="fa fa-instagram" aria-hidden="true"> grwadley</i></a><br>
-   		<a href="https://twitter.com/grwadley"><i class="fa fa-twitter" aria-hidden="true"> grwadley</i></a><br>
-   		<a href="https://soundcloud.com/grwadley"><i class="fa fa-soundcloud" aria-hidden="true"> grwadley</i></a><br>
-   		<i class="fa fa-envelope" aria-hidden="true"> grwadley@gmail.com</i><br>
-    </div>
-  </div>
+  <p>Now I'm rearranging many of my favorite tracks for solo acoustic sets and playing them around town.</p>
   <br>
+  <p>You can find my latest demos and song-a-week entries on my Soundcloud page, and keep up to date on everything else through my Twitter and Instagram profiles</p>
+	<ul class="list-inline">
+		<li><a href="https://soundcloud.com/grwadley"><i class="fa fa-soundcloud" aria-hidden="true"> grwadley</i></a></li>
+		<li><a href="https://www.instagram.com/grwadley/"><i class="fa fa-instagram" aria-hidden="true"> grwadley</i></a></li>
+   		<li><a href="https://twitter.com/grwadley"><i class="fa fa-twitter" aria-hidden="true"> grwadley</i></a></li>
+		<li><a href="mailto:grwadley@gmail.com"i class="fa fa-envelope" aria-hidden="true"> grwadley@gmail.com</i></a></li>
+	</ul>
 </div>
 
 
