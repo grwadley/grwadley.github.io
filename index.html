@@ -27,8 +27,8 @@
   .person {
       border: 10px solid transparent;
       margin-bottom: 25px;
-      width: 80%;
-      height: 80%;
+      width: 60%;
+      height: 60%;
       opacity: 0.7;
   }
   .person:hover {
@@ -136,6 +136,9 @@
   .dropdown-menu li a:hover {
       background-color: red !important;
   }
+  .total{
+  	padding-top: 55px;
+  }
   footer {
       background-color: #2d2d30;
       color: #f5f5f5;
@@ -156,7 +159,7 @@
   }
   </style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" class="total">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -178,7 +181,7 @@
   </div>
 </nav>
 
-<div id="album" class="container-fluid text-center">
+<div id="album" class="container-fluid text-center album">
   <img src="Bonsai.jpg" alt="Bonsai" class="img-responsive center-block" >
   <h2>
   <ul class="list-inline">
@@ -207,6 +210,17 @@
 <div id="band" class="container-fluid text-center">
   <h3>BIO</h3>
   <p><em>Reese Wadley</em></p>
+  <div class="row">
+  	<div class="col-sm-4"></div>
+  	<div class="col-sm-4">
+      <a href="#demo" data-toggle="collapse">
+        <img src="profile.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Guitars, Vocals, Synths, and Everything in between</p>
+      </div>
+    </div>
+  </div>
   <p>I'm a solo musician working out of my bedroom in Austin TX. Bonsai is my latest work and my first full length album.</p>
   <p>Now I'm rearranging many of my favorite tracks for solo acoustic sets and playing them around town.</p>
   <br>
